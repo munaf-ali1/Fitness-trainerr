@@ -69,7 +69,10 @@ function About() {
           >
             <motion.a
               variants={item}
-              href="#https://www.instagram.com/ali_lifftss/"
+              href="https://www.instagram.com/ali_lifftss/"
+              target="_blank"
+              rel="noopener noreferrer"
+              
               className="flex items-center gap-2 px-5 py-3 bg-gray-800 rounded-full shadow-lg hover:bg-red-500 transition"
             >
               <Instagram size={18} />
@@ -78,7 +81,10 @@ function About() {
 
             <motion.a
               variants={item}
-              href="#"
+              href="https://wa.me/919973163744"
+              target="_blank"
+              rel="noopener noreferrer"
+              
               className="flex items-center gap-2 px-5 py-3 bg-gray-800 rounded-full shadow-lg hover:bg-green-500 transition"
             >
               <MessageCircle size={18} />
@@ -87,7 +93,8 @@ function About() {
 
             <motion.a
               variants={item}
-              href="#"
+              href="tel:+919973163744"
+              
               className="flex items-center gap-2 px-5 py-3 bg-gray-800 rounded-full shadow-lg hover:bg-blue-500 transition"
             >
               <Phone size={18} />
